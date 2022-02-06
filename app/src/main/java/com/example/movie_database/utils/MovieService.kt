@@ -1,3 +1,4 @@
+
 package com.example.movie_database.utils
 
 import com.example.movie_database.model.MovieDataClass
@@ -12,5 +13,5 @@ interface MovieService {
     }
 
     @GET("?apikey=368629d5")
-    suspend fun getMovies(@Query(value = "") search: String)  : MovieDataClass
+    suspend fun getMovies(@Query(value = "s") search: String)  : MovieDataClass
 }

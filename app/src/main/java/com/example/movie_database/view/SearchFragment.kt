@@ -44,9 +44,9 @@ class SearchFragment : Fragment()  {
     private fun initListners() = with(binding) {
 
         button.setOnClickListener {
-            val input = (tvMovie.text.toString()).toString()
-
-            findNavController().navigate(R.id.action_searchFragment_to_movieFragment)
+            val input = (tvMovie.text.toString())
+            val action = SearchFragmentDirections.actionSearchFragmentToMovieFragment(input)
+            findNavController().navigate(action)
         }
     }
 
