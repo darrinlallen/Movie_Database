@@ -13,7 +13,7 @@ import com.example.movie_database.model.MovieDataClass
 import com.example.movie_database.utils.ViewState
 import com.example.movie_database.viewmodel.MovieViewModel
 
-
+//Fragment with logic to print results to screen
 class MovieFragment : Fragment() {
     private var _binding: MovieFragmentBinding? = null
     private val binding get() = _binding!!

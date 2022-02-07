@@ -4,7 +4,7 @@ import com.example.movie_database.utils.MovieService
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.create
-
+// connects to api
 
 class RetrofitInstance {
     private val retrofit = Retrofit.Builder()

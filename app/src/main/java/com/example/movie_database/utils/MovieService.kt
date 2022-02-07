@@ -4,7 +4,7 @@ package com.example.movie_database.utils
 import com.example.movie_database.model.MovieDataClass
 import retrofit2.http.GET
 import retrofit2.http.Query
-
+// Get and query api
 interface MovieService {
 
     companion object{

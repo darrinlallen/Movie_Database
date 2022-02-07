@@ -4,7 +4,7 @@ import androidx.lifecycle.*
 import com.example.movie_database.remote.MovieRepo
 import com.example.movie_database.utils.ViewState
 import kotlinx.coroutines.launch
-
+// The view model connects to view to the model
 
 class MovieViewModel(state: SavedStateHandle) : ViewModel() {
     val title = state.get<String>("name")

@@ -10,7 +10,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.movie_database.R
 import com.example.movie_database.databinding.SearchFragmentBinding
 import com.example.movie_database.viewmodel.MovieViewModel
-
+// logic to interact with search screen
 
 class SearchFragment : Fragment()  {
     private var _binding: SearchFragmentBinding? = null

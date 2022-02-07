@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.movie_database.databinding.ItemMovieBinding
 import com.example.movie_database.model.Search
-
+// Adapter to use with recycler view
 class MovieAdapter (
 
     private val movies: List<Search>
